@@ -7,8 +7,9 @@ body  {
 }
 
 /* header rules here */
+
+div#headerWrapper {background-color: #17a8e4;}
 header {
-    background-color: #17a8e4;
     padding: 1rem 2%;
 }
 
@@ -21,7 +22,8 @@ header h2 {
 }
 
 /* navigation rules here */
-nav {background-color: #111;}
+div#navWrapper {background-color: #111;}
+
 nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;}
 nav li.active {background-color: #333;}
@@ -35,7 +37,9 @@ nav a {
 nav a:hover {background-color: #444;}
 
 /* main rules here */
+div#mainWrapper {background-color: red;}
 main {
+    background-color: white;
     padding: 1rem 2%;
     display: block;
 }
@@ -48,10 +52,11 @@ main figure {
 }
 main figcaption {text-align: center; font-size: .8rem;}
 
+/* footer rules here */
+div#footerWrapper {background-color: #19a8e4;}
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #19a8e4;
 }
 
 
